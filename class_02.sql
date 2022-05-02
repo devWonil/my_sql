@@ -56,6 +56,8 @@ select * from productTBL where productId = 3;
 
 -- 문제3 수정
 update productTBL set productName = '식기세척' where productId = 3;
+update productTBL set cost = 900000 where productName = "세탁기";
 
 -- 문제4 삭제
 delete from productTBL where productId = 3;
+delete from productTBL where company = 'LG';
