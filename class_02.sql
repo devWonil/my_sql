@@ -5,7 +5,7 @@ desc memberTbL;
 
 insert into memberTbL values("Dang", "탕탕이", "경기도 부천시");
 insert into memberTbL values('Han', '한주연', "부산시 해운대구");
-insert into memberTbL(memberAddress, memberName, memberId) values("서울시 상암동", '지운이', 'jee');
+insert into memberTbL(memberAddress, memberName, memberId) values("서울시 상암동", '지운이', 'jee2');
 
 -- 오류 구문 (memberTBL에 memberId, memberName 필드명이 not null로 설계되었기 때문)
 insert into memberTbL(memberId) values('jee2');
@@ -34,7 +34,7 @@ truncate memberTBL;
 update memberTBL set memberName = '홍길동' where memberId = 'jee';
 
 -- 전체 데이터에 대한 값 수정
-update memberTBL set memberAddress = '';
+update memberTBL set memberAddress = 'memberAddress';
 
 -- ----------------------------
 desc productTBL;
