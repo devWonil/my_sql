@@ -8,7 +8,7 @@ select * from 배우정보 order by 배우번호;
 -- drop table 영화정보;
 -- drop table 출연;
 -- drop table 배우정보;
-drop table 영화금액;
+-- drop table 영화금액;
 
 create table 영화정보(
 	영화번호 int not null primary key,
