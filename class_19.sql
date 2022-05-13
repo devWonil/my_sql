@@ -17,6 +17,8 @@ drop table movieTbl;
 drop table roleTbl;
 drop table actorTbl;
 drop table costTbl;
+drop table reviewTbl;
+drop table teachersDay;
 
 create table movieTbl(
     movieNumber int not null primary key,
@@ -61,12 +63,26 @@ create table roleTbl(
     foreign key (movieNumber) references movieTbl(movieNumber)
  );
  
+ create table reviewTbl(
+	reviewNumber int not null primary key,
+    nickname varchar(7),
+    movieNumber int,
+    movieName varchar(20),
+    releasedDate date,
+    audience int,
+    starRating decimal(4,2),
+    review varchar(100),
+    foreign key (movieNumber) references movieTbl(movieNumber)
+ );
+
+ insert into reviewtbl values(1, '홍원일', 1, '명량', '2014-07-30', 17613682, 9.79, '노잼');
  alter table 영화금액 modify 영화번호 int(3);
 
  select * from movieTbl;
  select * from actorTbl;
  select * from roleTbl;
  select * from costTbl;
+ select * from reviewTbl;
  
  desc 영화정보;
  desc 출연;
