@@ -76,6 +76,8 @@ create table roleTbl(
  );
 
  insert into reviewtbl values(1, '홍원일', 1, '명량', '2014-07-30', 17613682, 9.79, '노잼');
+ insert into reviewtbl values(3, '홍원일', 1, '명량', '2014-07-30', 17613682, 9.79, '노잼');
+ insert into reviewtbl values(100, '홍원일', 1, '명량', '2014-07-30', 17613682, 9.79, '노잼');
  alter table 영화금액 modify 영화번호 int(3);
 
  select * from movieTbl;
@@ -96,7 +98,27 @@ INSERT INTO movieTbl VALUES (2, '극한직업', '2019-01-23', 139647979516, 1626
 INSERT INTO movieTbl VALUES (3, '신과 함께 - 죄와 벌', '2017-12-20', 115698654137, 12319542, 1912, 7.9);
 INSERT INTO movieTbl VALUES (4, '국제시장', '2014-12-17', 110913469630, 14257115, 966, 7.60);
 INSERT INTO movieTbl VALUES (5, '어벤져스:엔드게임', '2019-04-24', 122182694160, 13934592, 2835, 9.29);
-
+INSERT INTO movieTbl VALUES (6, '겨울왕국2', '2019-11-21', 114810421450, 13747792, 2648, 8.95);
+INSERT INTO movieTbl VALUES (7, '아바타', '2009-12-17', 128447097523, 13624328, 912, 9.07);
+INSERT INTO movieTbl VALUES (8, '베테랑', '2015-08-05', 105168155250, 13414009, 1064, 9.24);
+INSERT INTO movieTbl VALUES (9, '괴물', '2006-07-27', 0, 13019740, 167, 8.62);
+INSERT INTO movieTbl VALUES (10, '도둑들', '2012-07-25', 93665568500, 12983330, 1072, 8.00);
+INSERT INTO movieTbl VALUES (11, '7번방의 선물', '2013-01-23', 91431914670, 12811206, 787, 8.83);
+INSERT INTO movieTbl VALUES (12, '암살', '2015-07-22', 98463132781, 12705700, 1519, 9.10);
+INSERT INTO movieTbl VALUES (13, '알라딘', '2019-05-23', 106983620359, 12555894, 1311, 9.42);
+INSERT INTO movieTbl VALUES (14, '광해, 왕이 된 남자', '2012-09-13', 88900208769, 12319542, 810, 9.25);
+INSERT INTO movieTbl VALUES (15, '왕의 남자', '2005-12-29', 0, 12302831, 94, 9.04);
+INSERT INTO movieTbl VALUES (16, '신과 함께-인과 연', '2018-08-01', 102666146909, 12274996, 2235, 8.63);
+INSERT INTO movieTbl VALUES (17, '택시운전사', '2017-08-02', 95855737149, 12186684, 1906, 9.28);
+INSERT INTO movieTbl VALUES (18, '태극기 휘날리며', '2004-02-05', 0, 11746135, 110, 9.21);
+INSERT INTO movieTbl VALUES (19, '부산행', '2016-07-20', 93178283048, 11565479, 1788, 8.6);
+INSERT INTO movieTbl VALUES (20, '해운대', '2009-07-22', 81934638201, 11453338, 753, 7.44);
+INSERT INTO movieTbl VALUES (21, '변호인', '2013-12-18', 82871759300, 11374610, 923, 9.0);
+INSERT INTO movieTbl VALUES (22, '어벤져스:인피니티 워', '2018-04-25', 99919006769, 11211880, 2553, 9.08);
+INSERT INTO movieTbl VALUES (23, '실미도', '2003-12-24', 0, 11081000, 83, 8.39);
+INSERT INTO movieTbl VALUES (24, '어벤져스:에이지 오브 울트론', '2015-04-23', 88582586366, 10494499, 1843, 8.59);
+INSERT INTO movieTbl VALUES (25, '기생충', '2019-05-30', 87459829095, 10313086, 1948, 9.07);
+INSERT INTO movieTbl VALUES (26, '알라딘', '1993-07-03', 593488168, 647266, 26, 9.35);
 
 insert into actorTbl values (1, '최민식', 1962, 177.1, 77.2, '김활란');
 insert into actorTbl values (2, '류승룡', 1970, 175.3, 72.5, '유');
