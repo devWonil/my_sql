@@ -17,4 +17,6 @@ use mysql;
 select user, host from user;
 
 -- db 생성
-create database blog;
+create database blog2;
+
+create database movie;
