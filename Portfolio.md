@@ -1,6 +1,6 @@
 Portfolio
 =============
-[전체](https://www.notion.so/Portfolio-a0995a39488d45c48037303ce05a02c9)
+[포트폴리오 모음](https://www.notion.so/Portfolio-a0995a39488d45c48037303ce05a02c9)
 
 [Comma🏖️](https://www.notion.so/Comma-77d25fa5a8a941a597197b1bc0710fd3)
 
