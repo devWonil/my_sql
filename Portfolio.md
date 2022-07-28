@@ -9,3 +9,11 @@ Portfolio
 [**영화 정보 및 평점/리뷰 작성 프로그램**🎬](https://www.notion.so/4419aa426f0646788a74df5116d641a6)
 
 [Snake Game 🎮](https://www.notion.so/Snake-Game-d1dedbc12c3e4617873d70e3cf8d00ca)
+
+### Github
+
+[devWonil - Overview](https://github.com/devWonil)
+
+## Blog
+
+[Oneill : 네이버 블로그](https://blog.naver.com/oneill91)
